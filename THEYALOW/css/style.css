@@ -273,7 +273,8 @@ footer{
         width: 100%;
     }
     .monkey_with_man img{
-        width: 414px;
+        padding: 20px;
+        width: 385px;
     }
     #second_img_in_about_free{
         margin-left: 120px;
@@ -316,7 +317,7 @@ footer{
         margin-left: 30px;
     }
     .monkey_with_man img{
-        width: 123%;
+        width: 335px;
     }
     .about_free h2{
         font-size: 35px;
