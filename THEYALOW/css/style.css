@@ -147,16 +147,6 @@ header span{
     content: "•";
     padding-right: 7px;
 }
-.its100free{
-    position: absolute;
-    top: 147%;
-}
-.its100free p{
-    position: absolute;
-    top: 35px;
-    left: 4px;
-    color: white;
-}
 footer{
     display: flex;
     justify-content: space-between;
@@ -265,9 +255,6 @@ footer{
     .img_about_free{
         margin-left: 40px;
     }
-    .its100free{
-        top: 130%;
-    }
 }
 @media screen and (max-width:425px){
     nav{
@@ -286,7 +273,7 @@ footer{
         width: 100%;
     }
     .monkey_with_man img{
-        width: 425px;
+        width: 414px;
     }
     #second_img_in_about_free{
         margin-left: 120px;
@@ -305,10 +292,6 @@ footer{
     .phones{
         margin-left: 100px;
     }
-    .its100free{
-        top: 230%;
-        left: 40px;
-    }
     footer{
         margin-left: 70px;
     }
@@ -322,6 +305,9 @@ footer{
     }
     .logo p{
         margin-top: 30px;
+    }
+    .logo{
+        width: 160px;
     }
     nav a{
         font-size: 14px;
@@ -337,10 +323,6 @@ footer{
     }
     .about_free_container img{
         margin: 0;
-    }
-    .its100free{
-        top: 223%;
-        left: 20px;
     }
     #second_img_in_about_free{
         margin-left: 105px;
