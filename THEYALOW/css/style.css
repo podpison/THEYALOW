@@ -269,12 +269,9 @@ footer{
         grid-template-columns: 1fr;
     }
     .first_lorem{
-        height: 200px;
+        height: 150px;
         width: 100%;
-        font-size: 25px;
-    }
-    .first_lorem p{
-        padding: 20px;
+        font-size: 23px;
     }
     .monkey_with_man img{
         padding: 20px;
