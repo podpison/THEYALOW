@@ -273,6 +273,10 @@ footer{
         width: 100%;
         font-size: 23px;
     }
+    .first_lorem p{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
     .monkey_with_man img{
         padding: 20px;
         width: 370px;
