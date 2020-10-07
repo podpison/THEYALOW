@@ -283,12 +283,15 @@ footer{
     margin-left: 160px;
     }
     .about_free h2{
-        font-size: 42px;
+        font-size: 35px;
     }
     .img_about_free img{
         display: grid;
         grid-template-columns: 1fr;
         padding-bottom: 20px;
+    }
+    .img_about_free{
+        margin: 30px;
     }
     .phones{
         margin-left: 100px;
