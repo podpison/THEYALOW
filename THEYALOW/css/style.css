@@ -40,7 +40,6 @@ nav{
     height: 32px;
     background-color: #f5c506;
     margin-top: 80px;
-    box-shadow: #f5c506 50px;
 }
 header h1{
     font-size: 63px;
@@ -198,7 +197,6 @@ footer{
     }
     .logo p{
         font-size: 19.5px;
-        margin: 0;
         margin-top: 19.5px;
         padding-right: 20px;
     }
@@ -269,5 +267,88 @@ footer{
     }
     .its100free{
         top: 130%;
+    }
+}
+@media screen and (max-width:425px){
+    nav{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    nav a{
+        padding: 0;
+        margin: 0;
+    }
+    .customs, .pictures_container{
+        grid-template-columns: 1fr;
+    }
+    .first_lorem{
+        height: 200px;
+        width: 100%;
+    }
+    .monkey_with_man img{
+        width: 425px;
+    }
+    #second_img_in_about_free{
+        margin-left: 120px;
+    }
+    #thort_img_in_about_free{
+    margin-left: 160px;
+    }
+    .about_free h2{
+        font-size: 42px;
+    }
+    .img_about_free img{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-bottom: 20px;
+    }
+    .phones{
+        margin-left: 100px;
+    }
+    .its100free{
+        top: 230%;
+        left: 40px;
+    }
+    footer{
+        margin-left: 70px;
+    }
+}
+@media screen and (max-width:375px){
+    .logo, nav{
+        height: 80px;
+    }
+    .logo img{
+        margin-top: 20px;
+    }
+    .logo p{
+        margin-top: 30px;
+    }
+    nav a{
+        font-size: 14px;
+    }
+    .first_lorem p{
+        margin-left: 30px;
+    }
+    .monkey_with_man img{
+        width: 123%;
+    }
+    .about_free h2{
+        font-size: 35px;
+    }
+    .about_free_container img{
+        margin: 0;
+    }
+    .its100free{
+        top: 223%;
+        left: 20px;
+    }
+    #second_img_in_about_free{
+        margin-left: 105px;
+    }
+    #thort_img_in_about_free{
+        margin-left: 145px;
+    }
+    footer{
+        margin-left: 50px;
     }
 }
