@@ -1,10 +1,12 @@
 body{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 img{
     height: auto;
+}
+.wrapper{
+    overflow: hidden;
 }
 .header_head, .logo{
     display: flex;
@@ -271,15 +273,14 @@ footer{
     .first_lorem{
         height: 150px;
         width: 100%;
-        font-size: 23px;
+        font-size: 25px;
     }
     .first_lorem p{
         margin-top: 20px;
         margin-left: 20px;
     }
     .monkey_with_man img{
-        padding: 20px;
-        width: 370px;
+        width: 425px;
     }
     #second_img_in_about_free{
         margin-left: 120px;
